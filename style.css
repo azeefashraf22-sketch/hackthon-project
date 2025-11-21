@@ -1,7 +1,7 @@
-/* Custom Fonts (Assuming Google Fonts is allowed for better fidelity) */
+/* Custom Fonts ( Google Fonts ) */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/* ===================== CSS Variables ===================== */
+/* ==== Make CSS Variables ==== */
 :root {
     --primary-color: #B88E2F;
     --dark-color: #333333;
@@ -11,7 +11,7 @@
     --font-poppins: 'Poppins', sans-serif;
 }
 
-/* ===================== BASE STYLES ===================== */
+/* ==== BASIC STYLES ==== */
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ body {
     font-family: var(--font-poppins);
     color: var(--dark-color);
     line-height: 1.6;
-    background-color: #ffffff; /* Ensuring white background */
+    background-color: #ffffff; /* white background */
 }
 
 a {
@@ -45,7 +45,7 @@ h1, h2, h3 {
     padding: 0 20px;
 }
 
-/* ===================== UTILITY CLASSES ===================== */
+/* ==== UTILITY CLASSES ==== */
 
 .btn {
     display: inline-block;
@@ -94,7 +94,7 @@ h1, h2, h3 {
     margin-bottom: 40px;
 }
 
-/* ===================== HEADER ===================== */
+/* ==== HEADER PART ==== */
 
 .header {
     padding: 20px 0;
@@ -116,7 +116,7 @@ h1, h2, h3 {
 }
 
 .logo img {
-    height: 32px; /* Adjusted logo size for fidelity */
+    height: 32px; /* Adjusted logo size */
 }
 
 .nav ul {
@@ -144,7 +144,7 @@ h1, h2, h3 {
     color: var(--primary-color);
 }
 
-/* Hide navigation on smaller screens by default */
+/* Hide navigation on smaller screens */
 @media (max-width: 768px) {
     .nav {
         display: none;
@@ -157,7 +157,7 @@ h1, h2, h3 {
     }
 }
 
-/* ===================== HERO SECTION ===================== */
+/* ==== HERO SECTION ( MAIN PART ) ==== */
 
 .hero {
     margin-top: 20px;

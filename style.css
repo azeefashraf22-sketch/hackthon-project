@@ -99,6 +99,11 @@ h1, h2, h3 {
 .header {
     padding: 20px 0;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;  
+    background: white;
 }
 
 .header .container {
